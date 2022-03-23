@@ -1,0 +1,114 @@
+body {
+    background-color: yellow;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clock > h1 {
+    font-size: 50px;
+}
+
+.settings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.break-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.break-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.break-buttons > img {
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.session-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.session-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.session-buttons > img {
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#session-label {
+    font-size: 25px;
+}
+
+.timer-section {
+    font-size: 25px;
+}
+
+.timer-section-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+#time-left {
+    font-size: 75px;
+}
+
+.timer-section-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.timer-section-buttons > img {
+    margin: 10px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+    margin-top:85px;
+}
+
+.author {
+    margin-top: -12px;
+    font-weight: 600;
+    font-style: oblique;
+}
